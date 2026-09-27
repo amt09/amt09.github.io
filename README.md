@@ -1,2 +1,2 @@
 # amt09.github.io
-Amt mining app 
+Amt mining app and reward
