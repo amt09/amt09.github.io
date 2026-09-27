@@ -1332,7 +1332,7 @@ CLAIM DAILY REWARD
 <!-- MINING SESSION -->
 <div class="card">
 <div class="card-title">MINING SESSION</div>
-<div class="muted" style="margin-bottom:8px">24h session · <b>0.5 AMT/hr</b> (12 AMT/day) · Claim when timer ends</div>
+<div class="muted" style="margin-bottom:8px">24h session · 0.5 AMT/hr · Claim when timer ends</div>
 
 <div class="mining-ring">
 <div class="mining-inner">
@@ -2293,7 +2293,7 @@ try{
 
 Pi.init({
 version:"2.0",
-sandbox:false
+sandbox:true
 });
 
 }catch(e){
@@ -3067,7 +3067,6 @@ $("miningTimer").textContent=
 $("miningProgress").style.width=
 "100%";
 
-
 if(miningInterval){
 
 clearInterval(miningInterval);
@@ -3091,7 +3090,6 @@ $("startMiningBtn").disabled=true;
 $("claimMiningBtn")
 .classList.add("hidden");
 
-
 startMiningClock(data);
 
 return;
@@ -3113,7 +3111,6 @@ $("miningTimer").textContent=
 
 $("miningProgress").style.width=
 "0%";
-
 
 if(miningInterval){
 
@@ -3386,7 +3383,7 @@ true
    REFERRAL
 ============================================================ */
 
-const APP_BASE_URL = "https://amt09.github.io";
+const APP_BASE_URL = "https://bonene28.github.io";
 
 function getPendingReferralCode(){
   try{
